@@ -2,6 +2,8 @@
 
 This is a hacky but effective solution to the lack of a keyboard shortcut to trigger OS X's new [**Split View**](https://www.apple.com/osx/elcapitan-preview/) action.
 
+##### [Download latest release.](https://github.com/rajington/SplitViewShortcut/releases)
+
 ## What do you mean hacky?
 
 The utility finds the zoom button using Accessibility, and then creates a click-and-hold mouse event to start Split View. If there's a better way to do this let me know, I'll keep a list here of things I looked for:
