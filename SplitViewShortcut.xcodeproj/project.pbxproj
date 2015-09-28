@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		357B406B1BB8FBC300A3AD2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B406A1BB8FBC300A3AD2D /* AppDelegate.swift */; };
+		357B406D1BB8FBC300A3AD2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357B406C1BB8FBC300A3AD2D /* Assets.xcassets */; };
+		357B40701BB8FBC300A3AD2D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 357B406E1BB8FBC300A3AD2D /* MainMenu.xib */; };
+		E351B458F7973F9105B30BCB /* libPods-SplitViewShortcut.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D462292C27C84620A2393F /* libPods-SplitViewShortcut.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		357B40671BB8FBC300A3AD2D /* SplitViewShortcut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewShortcut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		357B406A1BB8FBC300A3AD2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		357B406C1BB8FBC300A3AD2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		357B406F1BB8FBC300A3AD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		357B40711BB8FBC300A3AD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357B40771BB8FD8B00A3AD2D /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		54D462292C27C84620A2393F /* libPods-SplitViewShortcut.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SplitViewShortcut.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78396FE5EAA9D05F3C33648B /* Pods-SplitViewShortcut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitViewShortcut.release.xcconfig"; path = "Pods/Target Support Files/Pods-SplitViewShortcut/Pods-SplitViewShortcut.release.xcconfig"; sourceTree = "<group>"; };
+		B6F4A57DEA856E0C706A4761 /* Pods-SplitViewShortcut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplitViewShortcut.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SplitViewShortcut/Pods-SplitViewShortcut.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		357B40641BB8FBC300A3AD2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E351B458F7973F9105B30BCB /* libPods-SplitViewShortcut.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A86E2A9ED97CA3F459D4A2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54D462292C27C84620A2393F /* libPods-SplitViewShortcut.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		357B405E1BB8FBC300A3AD2D = {
+			isa = PBXGroup;
+			children = (
+				357B40691BB8FBC300A3AD2D /* SplitViewShortcut */,
+				357B40681BB8FBC300A3AD2D /* Products */,
+				FE0D173BBABC0A5D29E980C4 /* Pods */,
+				2A86E2A9ED97CA3F459D4A2A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		357B40681BB8FBC300A3AD2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				357B40671BB8FBC300A3AD2D /* SplitViewShortcut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		357B40691BB8FBC300A3AD2D /* SplitViewShortcut */ = {
+			isa = PBXGroup;
+			children = (
+				357B406A1BB8FBC300A3AD2D /* AppDelegate.swift */,
+				357B406C1BB8FBC300A3AD2D /* Assets.xcassets */,
+				357B406E1BB8FBC300A3AD2D /* MainMenu.xib */,
+				357B40711BB8FBC300A3AD2D /* Info.plist */,
+				357B40771BB8FD8B00A3AD2D /* Bridging-Header.h */,
+			);
+			path = SplitViewShortcut;
+			sourceTree = "<group>";
+		};
+		FE0D173BBABC0A5D29E980C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6F4A57DEA856E0C706A4761 /* Pods-SplitViewShortcut.debug.xcconfig */,
+				78396FE5EAA9D05F3C33648B /* Pods-SplitViewShortcut.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		357B40661BB8FBC300A3AD2D /* SplitViewShortcut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357B40741BB8FBC300A3AD2D /* Build configuration list for PBXNativeTarget "SplitViewShortcut" */;
+			buildPhases = (
+				5A0FDD48701527B509D6DC2C /* Check Pods Manifest.lock */,
+				357B40631BB8FBC300A3AD2D /* Sources */,
+				357B40641BB8FBC300A3AD2D /* Frameworks */,
+				357B40651BB8FBC300A3AD2D /* Resources */,
+				BD34E1E57FB5E4C940241598 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplitViewShortcut;
+			productName = SplitViewShortcut;
+			productReference = 357B40671BB8FBC300A3AD2D /* SplitViewShortcut.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		357B405F1BB8FBC300A3AD2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					357B40661BB8FBC300A3AD2D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 357B40621BB8FBC300A3AD2D /* Build configuration list for PBXProject "SplitViewShortcut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 357B405E1BB8FBC300A3AD2D;
+			productRefGroup = 357B40681BB8FBC300A3AD2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				357B40661BB8FBC300A3AD2D /* SplitViewShortcut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		357B40651BB8FBC300A3AD2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357B406D1BB8FBC300A3AD2D /* Assets.xcassets in Resources */,
+				357B40701BB8FBC300A3AD2D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A0FDD48701527B509D6DC2C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD34E1E57FB5E4C940241598 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SplitViewShortcut/Pods-SplitViewShortcut-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		357B40631BB8FBC300A3AD2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357B406B1BB8FBC300A3AD2D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		357B406E1BB8FBC300A3AD2D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				357B406F1BB8FBC300A3AD2D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		357B40721BB8FBC300A3AD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		357B40731BB8FBC300A3AD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		357B40751BB8FBC300A3AD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F4A57DEA856E0C706A4761 /* Pods-SplitViewShortcut.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SplitViewShortcut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nigam.SplitViewShortcut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SplitViewShortcut/Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
+			};
+			name = Debug;
+		};
+		357B40761BB8FBC300A3AD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78396FE5EAA9D05F3C33648B /* Pods-SplitViewShortcut.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SplitViewShortcut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nigam.SplitViewShortcut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SplitViewShortcut/Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		357B40621BB8FBC300A3AD2D /* Build configuration list for PBXProject "SplitViewShortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357B40721BB8FBC300A3AD2D /* Debug */,
+				357B40731BB8FBC300A3AD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		357B40741BB8FBC300A3AD2D /* Build configuration list for PBXNativeTarget "SplitViewShortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357B40751BB8FBC300A3AD2D /* Debug */,
+				357B40761BB8FBC300A3AD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 357B405F1BB8FBC300A3AD2D /* Project object */;
+}
