@@ -18,4 +18,4 @@ The utility finds the zoom button using Accessibility, and then creates a click-
 
 ## Disclaimer
 
-Use this at your own risk and please submit bugs, features, or pull requests. This is my first Swift project, my first Accessibility scripting project, and also even my first native Desktop application in a long time. There are things like Sparkle and Homebrew I might look into later if necessary.
+Use this at your own risk and please submit bugs, features, or pull requests, and I will use those to prioritize my tasks. This is my first Swift project, my first Accessibility scripting project, and also even my first native Desktop application in a long time. There are things like Sparkle and Homebrew I might look into later if necessary.
