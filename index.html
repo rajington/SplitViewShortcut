@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Split View Shortcut by rajington</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Split View Shortcut</h1>
+        <h2>Start El Capitan&#39;s &quot;Split View&quot; with a configurable global keyboard shortcut</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/rajington/SplitViewShortcut/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/rajington/SplitViewShortcut/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/rajington/SplitViewShortcut" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="split-view-shortcut" class="anchor" href="#split-view-shortcut" aria-hidden="true"><span class="octicon octicon-link"></span></a>Split View Shortcut</h1>
+
+<p>This is a hacky but effective solution to the lack of a keyboard shortcut to trigger OS X's new <a href="https://www.apple.com/osx/elcapitan-preview/"><strong>Split View</strong></a> action.</p>
+
+<h2>
+<a id="what-do-you-mean-hacky" class="anchor" href="#what-do-you-mean-hacky" aria-hidden="true"><span class="octicon octicon-link"></span></a>What do you mean hacky?</h2>
+
+<p>The utility finds the zoom button using Accessibility, and then creates a click-and-hold mouse event to start Split View. If there's a better way to do this let me know, I'll keep a list here of things I looked for:</p>
+
+<ul>
+<li><p>A method on <code>NSWindow</code> to toggle Split View like <a href="https://developer.apple.com/library/mac/documentation/Cocoa/Reference/ApplicationKit/Classes/NSWindow_Class/#//apple_ref/occ/instm/NSWindow/toggleFullScreen:"><code>toggleFullScreen</code></a>.</p></li>
+<li><p>An accessibility object action for starting Split View found using <a href="https://developer.apple.com/library/mac/documentation/ApplicationServices/Reference/AXUIElement_header_reference/index.html#//apple_ref/c/func/AXUIElementPerformAction"><code>AXUIElementCopyActionNames</code></a> on the window's zoom button.</p></li>
+<li><p>A way to trigger click-and-hold mouse event other than <code>sleep</code> and <code>CGEventCreateMouseEvent</code>s</p></li>
+</ul>
+
+<h2>
+<a id="why-not-spectacle-or-other-window-management-apps" class="anchor" href="#why-not-spectacle-or-other-window-management-apps" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why not Spectacle or other window management apps?</h2>
+
+<p><a href="https://github.com/eczarny/spectacle/issues/282">Spectacle</a> and other apps cannot achieve true fullscreen because the Dock reserves pixels along the edge. They're still a lot more customizable and worth checking out if you haven't though.</p>
+
+<h2>
+<a id="disclaimer" class="anchor" href="#disclaimer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Disclaimer</h2>
+
+<p>Use this at your own risk and please submit bugs, features, or pull requests. This is my first Swift project, my first Accessibility scripting project, and also even my first native Desktop application in a long time. There are things like Sparkle and Homebrew I might look into later if necessary.</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
