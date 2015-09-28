@@ -1,6 +1,6 @@
 # Split View Shortcut
 
-This is a hacky but effective solution to the lack of a keyboard shortcut to trigger OS X's new *Split View* action.
+This is a hacky but effective solution to the lack of a keyboard shortcut to trigger OS X's new [**Split View**](https://www.apple.com/osx/elcapitan-preview/) action.
 
 ## What do you mean hacky?
 
