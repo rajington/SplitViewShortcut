@@ -1,3 +1,5 @@
+# UPDATE: BetterTouchTool (http://www.boastr.net/) has added support for this, I recommend you use that instead.
+
 ![](https://raw.githubusercontent.com/rajington/SplitViewShortcut/master/preview.gif)
 
 # Split View Shortcut
